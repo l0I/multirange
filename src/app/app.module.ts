@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DateComponent } from './date/date.component';
 import { AngularMyDatePickerModule } from "angular-mydatepicker";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -12,6 +13,8 @@ import { AngularMyDatePickerModule } from "angular-mydatepicker";
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
+    FormsModule,
     AngularMyDatePickerModule
   ],
   providers: [],
